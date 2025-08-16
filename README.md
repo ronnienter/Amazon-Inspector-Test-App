@@ -24,11 +24,11 @@ Lets you scan for vulnerabilities **before your code reaches production**.
 
 ## Steps
 
-1. **Login** to the AWS Management Console (preferably in `us-east-1`).  
-2. **Search for Amazon Inspector** and enable the service.  
-3. **Connect your GitHub repository** that contains `vulnerablecode.py`.  
+1. **Login** to the AWS Management Console.
+2. **Search for Amazon Inspector** and enable service.  
+3. **Connect GitHub repository** that contains `vulnerablecode.py`or your vulnerable code.  
 4. **Enable Code Scanning** under Inspector → Code Scans.  
-5. **Run a Scan** and wait for Inspector to analyze the code.  
+5. **Inspector** analyzes the code repo's when Github has been authorized OR you can initiate an **On-Demand scan**.
 6. **Review Findings** – Inspector will list vulnerabilities, their severity, and remediation advice.  
 7. **Fix Issues and Commit** changes back to GitHub.  
 8. **Repeat Scans** until the repository is free of critical vulnerabilities.  
